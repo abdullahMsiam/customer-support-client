@@ -1,0 +1,110 @@
+[
+  {
+    "id": "TIC-101",
+    "title": "Login Authentication Failure",
+    "description": "Users reporting 401 errors when attempting to log in via OAuth.",
+    "customer": "TechCorp Solutions",
+    "priority": "Critical",
+    "status": "In Progress",
+    "createdAt": "2026-03-15T08:30:00Z"
+  },
+  {
+    "id": "TIC-102",
+    "title": "UI Alignment on Dashboard",
+    "description": "The 'Export to PDF' button is overlapping with the search bar on mobile views.",
+    "customer": "Global Retail Inc.",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2026-03-15T09:15:00Z"
+  },
+  {
+    "id": "TIC-103",
+    "title": "Database Connection Timeout",
+    "description": "Intermittent timeouts occurring during peak hours (14:00 - 16:00).",
+    "customer": "DataStream Partners",
+    "priority": "High",
+    "status": "Investigating",
+    "createdAt": "2026-03-15T11:45:00Z"
+  },
+  {
+    "id": "TIC-104",
+    "title": "Missing Password Reset Email",
+    "description": "Customer claims they are not receiving the recovery link after multiple attempts.",
+    "customer": "Sarah Jenkins",
+    "priority": "Medium",
+    "status": "Resolved",
+    "createdAt": "2026-03-16T10:00:00Z"
+  },
+  {
+    "id": "TIC-105",
+    "title": "API Rate Limit Clarification",
+    "description": "Requesting documentation on the maximum requests per minute for the v2 endpoint.",
+    "customer": "Fintech Innovations",
+    "priority": "Low",
+    "status": "Closed",
+    "createdAt": "2026-03-16T13:20:00Z"
+  },
+  {
+    "id": "TIC-106",
+    "title": "Slow Image Uploads",
+    "description": "Uploads exceeding 5MB are taking over 60 seconds to process.",
+    "customer": "Creative Media Group",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-17T07:10:00Z"
+  },
+  {
+    "id": "TIC-107",
+    "title": "Production Server Spike",
+    "description": "CPU usage is consistently above 90% on the US-East-1 instance.",
+    "customer": "Internal Monitoring",
+    "priority": "Critical",
+    "status": "In Progress",
+    "createdAt": "2026-03-17T09:45:00Z"
+  },
+  {
+    "id": "TIC-108",
+    "title": "Billing Discrepancy",
+    "description": "User was charged twice for the March subscription cycle.",
+    "customer": "Apex Logistics",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-17T14:00:00Z"
+  },
+  {
+    "id": "TIC-109",
+    "title": "Broken Link in Footer",
+    "description": "The 'Privacy Policy' link in the site footer leads to a 404 page.",
+    "customer": "User Feedback",
+    "priority": "Low",
+    "status": "Resolved",
+    "createdAt": "2026-03-18T11:15:00Z"
+  },
+  {
+    "id": "TIC-110",
+    "title": "Bulk Export Failure",
+    "description": "Exporting more than 5,000 records results in a generic system error.",
+    "customer": "Enterprise Analytics",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2026-03-18T15:30:00Z"
+  },
+  {
+    "id": "TIC-111",
+    "title": "Dark Mode Contrast Issues",
+    "description": "Text is difficult to read in dark mode on the settings page.",
+    "customer": "David Miller",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2026-03-19T02:00:00Z"
+  },
+  {
+    "id": "TIC-112",
+    "title": "Security Vulnerability Patch",
+    "description": "Need to update npm dependencies to address CVE-2026-1234.",
+    "customer": "Internal Security",
+    "priority": "High",
+    "status": "Pending",
+    "createdAt": "2026-03-19T05:50:00Z"
+  }
+]
