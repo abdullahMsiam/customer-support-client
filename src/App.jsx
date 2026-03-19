@@ -17,10 +17,13 @@ function App() {
   const ticketData = use(ticketPromise);
   console.log(ticketData);
 
+  const progressCount = ticketData.filter(ticket => ticket.status === "In Progress").length;
+  const completedCount = ticketData.filter(ticket => ticket.status === "Resolved").length;
+
   return (
     <div>
       <Navbar />
-      <Banner />
+      <Banner progressCount={progressCount} completedCount={completedCount} />
     </div>
   )
 }
