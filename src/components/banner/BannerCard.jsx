@@ -5,7 +5,7 @@ const BannerCard = ({ status, count }) => {
 
         <div className={`card text-primary-content flex-1 h-48 ${status === "In Progress" ? "bg-gradient-to-t from-violet-400 to-violet-600" : "bg-gradient-to-t from-green-400 to-green-600"}`}>
             <div className="card-body  bg-[url('/src/assets/vector1.png')] bg-no-repeat pt-9">
-                <h2 className=" text-center font-bold text-2xl w-full">{status === "In Progress" ? "In Progress" : "Completed"}</h2>
+                <h2 className=" text-center font-bold text-2xl w-full">{status === "In Progress" ? "In Progress" : "Resolved"}</h2>
                 <p className='text-5xl font-semibold text-center '>{count}</p>
             </div>
         </div>

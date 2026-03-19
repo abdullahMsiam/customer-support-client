@@ -2,6 +2,7 @@ import { use } from 'react';
 import './App.css'
 import Navbar from './components/navbar/Navbar'
 import Banner from './components/banner/Banner';
+import HomeBody from './components/homeBody/HomeBody';
 
 
 const fetchTicket = async () => {
@@ -24,6 +25,7 @@ function App() {
     <div>
       <Navbar />
       <Banner progressCount={progressCount} completedCount={completedCount} />
+      <HomeBody ticketData={ticketData.filter(t => t.status !== "Resolved")} />
     </div>
   )
 }
