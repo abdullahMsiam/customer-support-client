@@ -25,7 +25,7 @@ const Navbar = () => {
                         <ul
                             tabIndex="-1"
                             className="menu menu-sm dropdown-content  rounded-box z-1 mt-3 w-52 p-2 shadow">
-                            {/*  */}
+
                             {menuItems}
 
                         </ul>
@@ -34,12 +34,12 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-end hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
-                        {/*  */}
+
                         {menuItems}
                     </ul>
                 </div>
                 <div className="navbar-end md:w-1/12 flex">
-                    <a className="btn btn-gradient"><FaPlusCircle /> Button</a>
+                    <button className="btn btn-gradient"><FaPlusCircle /> Button</button>
                 </div>
             </div>
         </div>

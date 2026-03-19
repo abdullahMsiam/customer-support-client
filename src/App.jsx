@@ -1,6 +1,7 @@
-import { useState, use } from 'react';
+import { use } from 'react';
 import './App.css'
 import Navbar from './components/navbar/Navbar'
+import Banner from './components/banner/Banner';
 
 
 const fetchTicket = async () => {
@@ -19,6 +20,7 @@ function App() {
   return (
     <div>
       <Navbar />
+      <Banner />
     </div>
   )
 }
