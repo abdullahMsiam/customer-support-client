@@ -39,7 +39,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end md:w-1/12 flex">
-                    <button className="btn btn-gradient"><FaPlusCircle /> Button</button>
+                    <button className="btn btn-gradient"><FaPlusCircle /> New Ticket</button>
                 </div>
             </div>
         </div>

@@ -2,7 +2,7 @@ import React from 'react';
 import TicketCard from './TicketCard';
 import TaskCard from './TaskCard';
 
-const HomeBody = ({ ticketData }) => {
+const HomeBody = ({ ticketData, resolveTicket }) => {
     console.log(ticketData);
     return (
         <div className='container mx-auto mt-4'>
@@ -25,7 +25,7 @@ const HomeBody = ({ ticketData }) => {
                         <div className='grid grid-cols-1 gap-2 mt-4'>
                             {
                                 ticketData.filter(t => t.status === "In Progress").map(ticket => (
-                                    <TaskCard key={ticket.id} ticket={ticket} />
+                                    <TaskCard key={ticket.id} ticket={ticket} resolveTicket={resolveTicket} />
                                 ))
                             }
                         </div>
