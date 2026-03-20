@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaDotCircle } from "react-icons/fa";
+import { FaCircle } from "react-icons/fa";
 
 const TicketCard = ({ ticket }) => {
     const { title, description, customer, priority, status, createdAt } = ticket;
@@ -7,8 +7,8 @@ const TicketCard = ({ ticket }) => {
         <div className='bg-base-300 p-4'>
             <div className='flex justify-between items-center mb-2'>
                 <h1 className='font-bold text-lg'>{title}</h1>
-                <button className={`${status === 'In Progress' ? 'bg-yellow-500/60' : status === 'Resolved' ? 'bg-green-500/30' : 'bg-green-400/60'} text-black px-4 py-1 rounded-full font-semibold flex justify-between items-center gap-2`}>
-                    <FaDotCircle /> {status}
+                <button className={`${status === 'In Progress' ? 'bg-yellow-500/60 text-yellow-900' : status === 'Resolved' ? 'bg-green-500/30' : 'bg-green-400/60  text-green-900'}  px-4 py-1 rounded-full font-semibold flex justify-between items-center gap-2`}>
+                    <FaCircle /> {status}
                 </button>
             </div>
             <p className='h-16'>{description}</p>

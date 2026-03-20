@@ -23,7 +23,7 @@
     "description": "Intermittent timeouts occurring during peak hours (14:00 - 16:00).",
     "customer": "DataStream Partners",
     "priority": "High",
-    "status": "Investigating",
+    "status": "In Progress",
     "createdAt": "2026-03-15T11:45:00Z"
   },
   {
@@ -104,7 +104,7 @@
     "description": "Need to update npm dependencies to address CVE-2026-1234.",
     "customer": "Internal Security",
     "priority": "High",
-    "status": "Pending",
+    "status": "In Progress",
     "createdAt": "2026-03-19T05:50:00Z"
   }
 ]

@@ -25,7 +25,7 @@ function App() {
     <div>
       <Navbar />
       <Banner progressCount={progressCount} completedCount={completedCount} />
-      <HomeBody ticketData={ticketData.filter(t => t.status !== "Resolved")} />
+      <HomeBody ticketData={ticketData} />
     </div>
   )
 }
