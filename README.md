@@ -9,78 +9,33 @@ JSX is the short form of javascript XML. XML allow to write html elements within
 
 ### 2. What is the difference between State and Props?
 
-| Feature  State  Props 
-|---------|-------|-------|
-| **Definition** | Data managed internally by a component | Data passed from parent component |
-| **Mutability** | Mutable (can change) | Immutable (read-only) |
-| **Scope** | Local to the component | Passed down to child components |
-| **Updates** | Triggers re-render | Cannot be modified by child |
+**Difference**
+*State*: Help to managing the changeable data and tiggered re-renders
+*Props*: Help to pass data from parent to child components and don't allow child to parent.
 
 ---
 
 ### 3. What is the useState hook, and how does it work?
 
-`useState` is a React hook that lets you add state to functional components. It returns an array with two elements: the current state value and a function to update it.
+`useState` is a React hook to manage the state of a react component and its return an array. 
 
 **Syntax:**
 ```jsx
 const [value, setValue] = useState(initialValue);
 ```
 
-**Example:**
-```jsx
-const [count, setCount] = useState(0);
-
-return <button onClick={() => setCount(count + 1)}>Count: {count}</button>;
-```
-
 ---
 
 ### 4. How can you share state between components in React?
 
-**Method 1: Lifting State Up**
-Move state to a common parent component and pass it down via props to child components.
+**Lifting state up**: Declare the state on a common parent component and pass sate to child through the props
 
-**Method 2: Context API**
-Create a context to share state across multiple components without prop drilling.
+**Context API**: Context api can accessable globally without drilling props
 
-**Method 3: State Management Libraries**
-Use Redux, Zustand, or Recoil for more complex state management.
+**State Libraries**: Example Redux
 
 ---
 
 ### 5. How is event handling done in React?
 
 Event handling uses camelCase event names as JSX attributes. You pass a function reference or arrow function to handle events.
-
-**Examples:**
-```jsx
-// Function reference
-<button onClick={handleClick}>Click me</button>
-
-// Arrow function
-<button onClick={() => setCount(count + 1)}>Increase</button>
-
-// Form input
-<input onChange={(e) => setText(e.target.value)} />
-
-// Event object
-const handleClick = (e) => console.log(e.target);
-```
-
-React uses event delegation for optimal performance.
-
----
-
-## Getting Started
-
-```bash
-npm install
-npm run dev
-```
-
-## Tech Stack
-
-- **React** - UI library
-- **Vite** - Build tool
-- **DaisyUI** - UI components
