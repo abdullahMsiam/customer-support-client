@@ -1,23 +1,15 @@
 # Customer Support Client
 
-A React-based customer support application built with Vite.
-
-## React Q&A Guide
 
 ### 1. What is JSX, and why is it used?
 
-JSX is a syntax extension for JavaScript that looks like HTML/XML. It allows you to write UI elements in a familiar HTML-like syntax within JavaScript. It's used because it makes code more readable and maintainable, and it gets compiled to regular JavaScript function calls (`React.createElement()`).
-
-**Example:**
-```jsx
-const element = <h1>Hello, {name}!</h1>;
-```
+JSX is the short form of javascript XML. XML allow to write html elements within javascript and it make code more readable and efficient. 
 
 ---
 
 ### 2. What is the difference between State and Props?
 
-| Feature | State | Props |
+| Feature  State  Props 
 |---------|-------|-------|
 | **Definition** | Data managed internally by a component | Data passed from parent component |
 | **Mutability** | Mutable (can change) | Immutable (read-only) |
